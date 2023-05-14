@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Example of Images, Image Maps, and Color in HTML5</title>
+  </head>
+  <body>
+    <h1>Images, Image Maps, and Color</h1>
+    
+    <img src="example-image.jpg" alt="Example Image" width="500" height="300">
+    
+    <map name="example-map">
+      <area shape="rect" coords="0,0,100,100" href="https://www.google.com">
+      <area shape="circle" coords="150,150,50" href="https://www.facebook.com">
+      <area shape="poly" coords="300,0,400,50,350,100,300,100" href="https://www.twitter.com">
+    </map>
+    <img src="example-image-with-map.jpg" alt="Example Image with Map" usemap="#example-map" width="500" height="300">
+    
+    <div style="background-color: #f1c40f; width: 500px; height: 50px;">
+      <p>Background color of this div is changed using inline style attribute.</p>
+    </div>
+    
+    <p style="color: #e74c3c;">This text has a different color.</p>
+    
+    <a href="https://www.google.com" style="color: #3498db;">This link has a different color.</a>
+  </body>
+</html>

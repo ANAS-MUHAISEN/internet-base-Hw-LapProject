@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <label for="hidden-input">Hidden Input:</label>
+<input type="hidden" id="hidden-input" name="hidden" value="hidden value">
+
+<label for="tel-input">Telephone Input:</label>
+<input type="tel" id="tel-input" name="tel" placeholder="Enter phone number" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
+
+<label for="email-input">Email Input:</label>
+<input type="email" id="email-input" name="email" placeholder="Enter email address" required>
+
+<label for="number-input">Number Input:</label>
+<input type="number" id="number-input" name="number" min="0" max="100" step="1" value="0">
+
+<label for="range-input">Range Input:</label>
+<input type="range" id="range-input" name="range" min="0" max="100" step="1" value="0">
+
+<label for="search-input">Search Input:</label>
+<input type="search" id="search-input" name="search" placeholder="Search..." autocomplete="on">
+
+<label for="image-input">Image Input:</label>
+<input type="image" id="image-input" name="image" src="example.png" alt="Example Image">
+
+<label for="week-input">Week Input:</label>
+<input type="week" id="week-input" name="week">
+
+<label for="url-input">URL Input:</label>
+<input type="url" id="url-input" name="url" placeholder="https://www.example.com" required>
+
+<label for="datetime-local-input">Date/Time Input:</label>
+<input type="datetime-local" id="datetime-local-input" name="datetime-local" min="2023-01-01T00:00" max="2023-12-31T23:59" step="900">
+
+<label for="month-input">Month Input:</label>
+<input type="month" id="month-input" name="month" min="2023-01" max="2023-12">
+
+<label for="time-input">Time Input:</label>
+<input type="time" id="time-input" name="time" min="00:00" max="23:59" step="900">
+</body>
+</html>
